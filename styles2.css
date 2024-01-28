@@ -1,58 +1,45 @@
+/* Add your styles for page2.html here */
 body {
+    font-family: 'Changa', sans-serif;
     margin: 0;
     padding: 0;
 }
 
 .container {
-    position: relative;
-    height: 100vh;
-    background: url('page 2.jpg') center/cover no-repeat;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 header {
     text-align: center;
-    padding: 20px;
-    color: #fff;
-    font-family: 'Bangers', cursive; /* Bangers font for the title */
 }
 
 .main-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%;
+    margin-top: 20px;
 }
 
 .overlay {
-    background: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 10px;
 }
 
 .text-container {
     text-align: center;
-    color: #fff;
-    font-size: 24px;
-    font-family: 'Changa', sans-serif; /* Changa font for the main content */
 }
 
-/* New styles for the button */
 .next-button {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #007BFF; /* Blue color */
-    color: #fff;
+    display: block;
+    margin-top: 20px;
     padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
     text-decoration: none;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    text-align: center;
 }
 
 .next-button:hover {
-    background-color: #0056b3; /* Darker shade of blue on hover */
+    background-color: #2980b9;
 }
