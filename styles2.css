@@ -1,8 +1,14 @@
+/* styles2.css */
+
 /* Add your styles for page2.html here */
 body {
     font-family: 'Changa', sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url('full/path/to/page2.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
 }
 
 .container {
@@ -43,3 +49,6 @@ header {
 .next-button:hover {
     background-color: #2980b9;
 }
+
+/* Add any additional styles below if needed */
+/* ... */
